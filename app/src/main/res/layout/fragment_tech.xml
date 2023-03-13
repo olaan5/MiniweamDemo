@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context=".TechFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/languages_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:text="@string/languages_tv"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="22sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/java_iv"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="22dp"
+                android:contentDescription="@string/java_iv_tv"
+                android:src="@drawable/java" />
+
+            <TextView
+                android:id="@+id/java_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/java_iv"
+                android:layout_marginStart="22dp"
+                android:layout_centerInParent="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="@string/java_iv_tv" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/xml_iv"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="22dp"
+                android:contentDescription="@string/java_iv_tv"
+                android:src="@drawable/xml" />
+
+            <TextView
+                android:id="@+id/xml_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="22dp"
+                android:layout_toEndOf="@id/xml_iv"
+                android:text="@string/xml_iv_tv"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tools_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:text="@string/tools_tv"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="22sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/git_iv"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="22dp"
+                android:contentDescription="@string/git_iv_tv"
+                android:src="@drawable/git" />
+
+            <TextView
+                android:id="@+id/git_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="22dp"
+                android:layout_toEndOf="@id/git_iv"
+                android:text="@string/git_iv_tv"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/github_iv"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="22dp"
+                android:contentDescription="@string/github_iv_tv"
+                android:src="@drawable/github" />
+
+            <TextView
+                android:id="@+id/github_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="22dp"
+                android:layout_toEndOf="@id/github_iv"
+                android:text="@string/github_iv_tv"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/firebase_iv"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="22dp"
+                android:contentDescription="@string/java_iv_tv"
+                android:src="@drawable/firebase" />
+
+            <TextView
+                android:id="@+id/firebase_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="22dp"
+                android:layout_toEndOf="@id/firebase_iv"
+                android:text="@string/firebase_iv_tv"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/notion_iv"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="22dp"
+                android:contentDescription="@string/java_iv_tv"
+                android:src="@drawable/notion_logo" />
+
+            <TextView
+                android:id="@+id/notion_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="22dp"
+                android:layout_toEndOf="@id/notion_iv"
+                android:text="@string/notion_iv_tv"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/super_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/java_iv_tv"
+            android:src="@drawable/super_logo" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/discover_projects_acb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:backgroundTint="@color/sienna"
+            android:drawableStart="@drawable/ic_space_dashboard"
+            android:text="@string/title_discover_projects"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</ScrollView>

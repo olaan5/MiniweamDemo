@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Miniweam Demo</string>
+
+    <!-- Content Description -->
+    <string name="brand_image">Miniweam Logo</string>
+    <string name="icon_message">Message</string>
+
+
+
+    <string name="let_get_started">Lets Get Started</string>
+    <string name="b_contact">Contact</string>
+    <string name="google">Google is a search engine.</string>
+    <string name="myEdittext_mail_hint">My E-mail Address</string>
+    <string name="edittext_mail_hint">Edittext Your E-mail Here Please</string>
+    <string name="title_Contact">Contact</string>
+    <string name="title_Skill">Skills</string>
+
+    <!-- activity_main page -->
+    <string name="welcome_tv">Welcome to Miniweam Demo App. Click "Enter" to continue</string>
+    <string name="enter_btn">Enter</string>
+
+    <!-- Fragment Titles -->
+    <string name="app_name2">Miniweam</string>
+    <string name="title_tech">Tech</string>
+    <string name="title_designs">Designs</string>
+
+    <!-- MiniweamFragment -->
+    <string name="about_brand_tv">About Miniweam</string>
+    <string name="about_app"><b>Hello World, this is <i>Miniweam</i>.</b>Our brand name.
+        \n\nWe are into Mobile Application Development, Architectural Home Designs, Web Designs, and Graphic Designs.
+        \n\nAny projects done as a portfolio, for clients, or for use will be updated here so as to keep users posted.
+        \n\nFor more information concerning our us, kindly navigate to the following web links below :
+        \n\n-Galaxy store link at <b>coming soon...</b>
+        \n\n-Github link at https://github.com/olaan5
+        \n\n-Google Play Store link at <b>coming soon...</b>
+        \n\n-Official Miniweam Website at https://olaal.super.site/
+    </string>
+    <string name="brand_mission">Our reason of existence and mission is to <b>bring your vision to reality, </b>and to empower every person we can on the planet to achieve more with the tools we create.</string>
+    <string name="business_name"><i>At </i>Miniweam</string>
+
+    <string name="about_me_tv"><u>About Me</u></string>
+    <string name="about_me"><b>My name is Mobolaji Alexander ODESANMI.</b> A fourth year undergraduate student at <i>Ladoke Akintola University of Technology, Ogbomoso, Nigeria.</i>, I am pursuing BTech in Computer Science and Engineering.
+        \n\nI am very passionate about Mobile Application Development. I am always ready to challenge myself and explore new areas of work. I never stop learning new things, and for me, each new project is a new adventure.
+        \n\nI love designing Architectural Home. I also use Canva to design graphics used in my apps and for friends that need a flyer for their business.
+        \n\nRecently, i started web designs.
+        \n\nFor more information concerning my portfolio, kindly visit the following web pages links indicated earlier above as I use Miniweam as a name to showcase my work.
+    </string>
+
+    <!-- TechFragment -->
+    <string name="languages_tv"><u>Languages and Frameworks</u></string>
+    <string name="java_iv_tv">java</string>
+    <string name="xml_iv_tv">XML</string>
+    <string name="tools_tv"><u>Tools and Technologies</u></string>
+    <string name="git_iv_tv">Git</string>
+    <string name="github_iv_tv">Github</string>
+    <string name="firebase_iv_tv">Firebase</string>
+    <string name="notion_iv_tv">Notion</string>
+
+    <!-- DesignsFragment -->
+    <string name="canva_iv_tv">Canva</string>
+    <string name="autocad_iv_tv">Autocad</string>
+    <string name="revit_iv_tv">Revit</string>
+    <string name="title_discover_designs">Discover desgins</string>
+    <string name="title_discover_projects">Discover Projects</string>
+
+</resources>
