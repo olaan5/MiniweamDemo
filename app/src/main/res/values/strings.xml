@@ -6,7 +6,6 @@
     <string name="icon_message">Message</string>
 
 
-
     <string name="let_get_started">Lets Get Started</string>
     <string name="b_contact">Contact</string>
     <string name="google">Google is a search engine.</string>
@@ -63,4 +62,77 @@
     <string name="title_discover_designs">Discover desgins</string>
     <string name="title_discover_projects">Discover Projects</string>
 
+
+    <!-- Fragment Titles -->
+    <string name="title_skills">Skills</string>
+    <string name="title_my_dashboard">My Dashboard</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- DesignsFragment -->
+
+    <string name="other_skills_tv"><u>Other Skills</u></string>
+
+    <!-- Projects Fragment -->
+    <string name="app_projects_tv"><u>App Projects</u></string>
+    <string name="simple_projects_tv">Simple projects</string>
+    <string name="little_projects_tv">Little projects</string>
+    <!-- Buttons -->
+    <string name="show_short_toast_btn">Show short toast</string>
+    <string name="show_long_toast_btn">Show long toast</string>
+    <string name="show_snackbar_btn">Show Snackbar</string>
+    <string name="implicit_intent_to_little_projects_btn">Implicit Intent</string>
+    <string name="explicit_intent_btn">Explicit Intent</string>
+    <string name="explicit_intent_bttn">Explicit Intent to little projects</string>
+
+    <!-- My Dashboard Fragment -->
+
+
+    <!-- Implicit Intent Activity -->
+    <!-- Buttons -->
+    <string name="see_other_apps_btn">See other apps</string>
+    <string name="rate_app_btn">Rate app</string>
+
+    <!-- Explicit Intent Activity -->
+    <string name="text_to_speech_tv"><b>Text to Speech</b></string>
+    <string name="type_anything_tv_hint">Type anything</string>
+    <string name="start_speaking_btn">Start speaking</string>
+    <string name="stop_speaking_btn">Stop speaking</string>
+    <string name="onrestoreinstancestate_tv"><b>onRestoreInstanceState</b></string>
+    <string name="phone_intent_tv"><b>Phone Intent</b></string>
+    <string name="enter_phone">Enter phone number</string>
+    <!-- Buttons -->
+    <string name="click_me_btn">Click Me</string>
+
+    <!-- Message Us -->
+    <string name="c_me">Contact Me</string>
+    <string name="feedback">I`d love to hear your thoughts and feedback based on this project and other projects linked to this App Portfolio.  </string>
+    <string name="edittext_mail">miniweam.it@gmail.com</string>
+    <string name="tv_myEmail">The e-mail above can be used to reach us, if there is opportunity to work with you.</string>
+    <string name="edittext_share">This app portfolio and other projects have been gone through, we say this is not bad for a start for a Junior Android Developer role.</string>
+    <!-- Buttons -->
+    <string name="button_mail">Open Mail</string>
+    <string name="button_share">Share This Text</string>
+    <string name="graphic_designs_tv">Graphic Designs</string>
+    <string name="architectural_designs_tv">Architectural Designs</string>
+
+
+    <string-array name="app_name">
+        <item>Miniweam</item>
+        <item>Boxeld</item>
+        <item>QuickRead</item>
+    </string-array>
+
+    <string-array name="app_link">
+        <item>https://github.com/olaan5</item>
+        <item>https://github.com/olaan5</item>
+        <item>https://github.com/olaan5</item>
+    </string-array>
+
+    <string-array name="app_descriptions">
+        <item>Miniweam is a showcase brand app.</item>
+        <item>Boxeld is social app coming soon.</item>
+        <item>QuickRead is news summary app built with a team.</item>
+    </string-array>
 </resources>
